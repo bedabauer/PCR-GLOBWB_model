@@ -27,7 +27,7 @@ set -x
 
 # configuration (.ini) file - PLEASE MODIFY THIS!
 # - historical
-INI_FILE="/home/edwinmod/github/bedabauer/PCR-GLOBWB_model/config/beda_thesis/setup_05min_beda_thesis.ini"
+INI_FILE="/home/edwinoxy/github/bedabauer/PCR-GLOBWB_model/config/beda_thesis/setup_05min_beda_thesis.ini"
 
 
 # starting and end dates
@@ -39,7 +39,7 @@ END_DATE="2022-12-31"
 
 # location/folder, where you will store output files of your - PLEASE MODIFY THIS 
 # - historical
-MAIN_OUTPUT_DIR="/scratch-shared/edwinmod/pgb_run_test_for_beda/"
+MAIN_OUTPUT_DIR="/scratch-shared/edwinoxy/pcrglobwb_run_for_beda_thesis_test/"
 
 
 # meteorological forcing files
@@ -59,7 +59,7 @@ NUMBER_OF_SPINUP_YEARS="25"
 
 
 # location of your pcrglobwb model scripts - PLEASE MODIFY THIS
-PCRGLOBWB_MODEL_SCRIPT_FOLDER="/home/edwinmod/github/bedabauer/PCR-GLOBWB_model/model/"
+PCRGLOBWB_MODEL_SCRIPT_FOLDER="/home/edwinoxy/github/bedabauer/PCR-GLOBWB_model/model/"
 
 
 # load all software, conda etc
